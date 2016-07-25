@@ -1,3 +1,6 @@
+## 博客地址
+
+[http://acrusher.github.io/blog](http://acrusher.github.io/blog)
 
 ## 基于jekyll 构建的博客
 

@@ -52,7 +52,7 @@ defaults:
       type: "posts"
     values:
       layout: "post"
-      author: "Azeril"
+      author: "ACRusher"
       header-img: "img/fantasy.jpg" # We don't want posts without a header image, that whould mean white on white
 
 
@@ -60,9 +60,9 @@ defaults:
 comments :
   provider : duoshuo
   duoshuo :
-    short_name : Azeril
+    short_name : ACRusher
   disqus :
-      short_name : Azeril
+      short_name : ACRusher
 
 # Analytics and webmaster tools stuff goes here
 google_analytics: UA-66863061-1

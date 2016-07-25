@@ -13,7 +13,7 @@ header-img: "img/plane.jpg"
 
 ——ACRusher
 
-[欢迎访问我的GitHub](https://github.com/ACRusher/)
+[欢迎访问我的GitHub  https://github.com/ACRusher/](https://github.com/ACRusher/)
 
 > 所有的天才，都是源于不断的训练
 

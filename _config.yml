@@ -1,0 +1,73 @@
+# Site settings
+title: ACRusher-Blog 
+header-img: "img/autumn2.jpg"
+tagline: "吉光片羽"  
+description: "在遙遠的地方 一切虔誠終必相遇"  
+baseurl: ""
+url: "http://acrusher.github.io"  
+#url: "http://localhost:4000"
+
+# About/contact
+owner: 
+  name: "ACRusher"
+  email: job_zhou2214@163.com
+  bio: "明朝即長路 惜取此時心"
+
+# Data
+gavatar: http://dreamofbook.qiniudn.com/Az..png
+favicon: img/favicon.ico
+
+douban_username: ACRusher
+twitter_username: ACRusher  
+github_username: ACRusher
+facebook_username: ACRusher  
+weibo_username: ACRusher
+zhihu_username: ACRusher
+
+# Build settings  
+# use Github Flavored Markdown !important  
+# document: http://jekyllrb.com/docs/configuration/#kramdown  
+markdown: kramdown
+kramdown:
+  input: GFM
+highlighter: rouge
+
+gems: 
+- jekyll-paginate
+permalink: none
+paginate: 8
+exclude: ["less","node_modules","Gruntfile.js","package.json","README.md"]
+
+# http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+timezone: Asia/Shanghai
+
+# Title
+
+
+# Defaults for posts
+defaults:
+  -
+    scope: 
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+      author: "Azeril"
+      header-img: "img/fantasy.jpg" # We don't want posts without a header image, that whould mean white on white
+
+
+# Comments 
+comments :
+  provider : duoshuo
+  duoshuo :
+    short_name : Azeril
+  disqus :
+      short_name : Azeril
+
+# Analytics and webmaster tools stuff goes here
+google_analytics: UA-66863061-1
+google_verify:
+# https://ssl.bing.com/webmaster/configure/verify/ownership Option 2 content= goes here
+bing_verify:
+
+# Links to include in footer navigation
